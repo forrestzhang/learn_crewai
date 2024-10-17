@@ -12,7 +12,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'topic': 'AI LLMs'
+        'topic': 'AI in Plant Epigenetics'
     }
     LatestAiDevelopmentCrew().crew().kickoff(inputs=inputs)
 
@@ -22,7 +22,7 @@ def train():
     Train the crew for a given number of iterations.
     """
     inputs = {
-        "topic": "AI LLMs"
+        "topic": "AI in Plant Epigenetics"
     }
     try:
         LatestAiDevelopmentCrew().crew().train(n_iterations=int(sys.argv[1]), filename=sys.argv[2], inputs=inputs)
